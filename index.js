@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 const fs = require("fs");
 
-const pushListElement = "<ul>";
+pushListElement = "<ul>";
 
 async function fetchPushes() {
   const response = await fetch("https://api.github.com/repos/RyuKento/Githubstudy/events");

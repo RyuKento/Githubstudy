@@ -17,5 +17,5 @@ jobs:
           node-version: "14"
       - name: Install Dependencies
         run: npm install
-      - name: Generate Push List
+      - name: generate-push-list
         run: node index.js
